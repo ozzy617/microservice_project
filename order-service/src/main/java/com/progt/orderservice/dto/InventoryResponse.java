@@ -1,4 +1,4 @@
-package com.progt.inventoryservice.dto;
+package com.progt.orderservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
