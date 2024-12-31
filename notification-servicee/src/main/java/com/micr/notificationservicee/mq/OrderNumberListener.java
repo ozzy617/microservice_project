@@ -13,7 +13,7 @@ public class OrderNumberListener {
     @KafkaListener(topics = "notification-topic")
     public void handleNotification(OrderPlacedEvent orderPlacedEvent) {
         //send out email notification logic
-        //log.info("Received Notification: {}", orderPlacedEvent.getOrderNumber();
-        System.out.println("Received Notification: " + orderPlacedEvent.getOrderNumber());
+        //log.info("Received Notification: {}", orderPlacedEvent);
+        System.out.println("Received Notification: " + orderPlacedEvent);
     }
 }

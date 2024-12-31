@@ -1,16 +1,15 @@
 package com.progt.productservice.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.math.BigDecimal;
 
-@Data
-@Builder
+
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
+@Builder
 public class ProductRequest {
 
     private String name;
